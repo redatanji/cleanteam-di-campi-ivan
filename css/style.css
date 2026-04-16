@@ -807,3 +807,17 @@ a.contact-info-item__value:hover { color: var(--clr-accent); }
 }
 
 /* ============
+/* ============================================================
+   FIX MOBILE HEADER — sempre visibile su mobile
+============================================================ */
+@media (max-width: 639px) {
+  .header {
+    background: rgba(27,43,75,0.97) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 2px 20px rgba(0,0,0,0.15);
+  }
+  .logo-text { color: #FFFFFF !important; }
+  .hamburger span { background: #FFFFFF !important; }
+  .header__phone { background: rgba(74,144,217,0.2) !important; }
+}
